@@ -16,10 +16,10 @@ const TrackBoard = () => {
           </select>
         </div>
         <div className='CurrentOrders'>
-            <CurrOrder OrderName={"98659865"} OrderId={"ORD-0948"} IconName={"shirt"}/>
-            <CurrOrder OrderName={"ARIF"} OrderId={"ORD-0949"} IconName={"shirt"}/>
-            <CurrOrder OrderName={"SHIYAS"} OrderId={"ORD-09450"} IconName={"shirt"}/>
-            <CurrOrder OrderName={"WALK IN CUSTOMER"} OrderId={"ORD-09451"} IconName={"shirt"}/>
+            <CurrOrder OrderName={"98659865"} OrderId={"ORD-0948"} IconName={"shirt"} color="yellow"/>
+            <CurrOrder OrderName={"ARIF"} OrderId={"ORD-0949"} IconName={"shirt"} color="pink"/>
+            <CurrOrder OrderName={"SHIYAS"} OrderId={"ORD-09450"} IconName={"shirt"} color="lightGrey"/>
+            <CurrOrder OrderName={"WALK IN CUSTOMER"} OrderId={"ORD-09451"} IconName={"shirt"} color="lightGrey"/>
         </div>
     </div>
   )

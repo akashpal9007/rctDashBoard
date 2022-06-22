@@ -1,8 +1,8 @@
 import React from 'react'
 import './CurrOrder.css'
-const CurrOrder = ({OrderName, OrderId, IconName}) => {
+const CurrOrder = ({OrderName, OrderId, IconName, color}) => {
   return (
-    <div className='currOrder'>
+    <div style={{borderColor: color}} className='currOrder'>
         <div className='currOrderDetails'>
             <span className='currOrderName'>{OrderName}</span>
             <span className='order-id'>{OrderId}</span>
