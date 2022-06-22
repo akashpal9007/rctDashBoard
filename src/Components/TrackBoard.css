@@ -60,3 +60,8 @@
         margin-right: 0px;
     }
 }
+@media (max-width:371px) {
+    .board-top>select{
+        width: 30px;
+    }
+}
