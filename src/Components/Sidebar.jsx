@@ -7,9 +7,9 @@ const Sidebar = () => {
 
   return (
       <>
-        <div className="Sidebar">
+        <div className={activeMenu ? "Sidebar" : "UnSidebar"}>
             <div className='mainlogo'>
-                <img class='icon-img' src={require("../Icons/gallery.png")} alt="" />
+                <img class='icon-img' src={require(`../Icons/gallery.png`)} alt="" />
                 {activeMenu && <span className='menu-text'>LAUNDRY</span>}
             </div>
             <div className="menu">

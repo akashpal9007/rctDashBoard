@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <button id='menu' className='left-nav' onClick={()=>{setActiveMenu(!activeMenu)}}>
-            <img className='leftNav-icons' src={require("../Icons/menu.png")} alt="" />
+            <img className='leftNav-icons' src={require(`../Icons/${activeMenu ? 'close': 'menu'}.png`)} alt="" />
         </button>
         <div className='right-nav'>
             <img className='nav-icons' src={require("../Icons/plus.png")} alt="" />
