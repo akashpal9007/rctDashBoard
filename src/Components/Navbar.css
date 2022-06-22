@@ -37,3 +37,11 @@
     width: 6rem;
     border-radius: 7px;
 }
+@media (max-width: 900px) {
+    .navbar{
+        margin-top: 1.3rem;
+    }
+    .right-nav{
+        margin-right: 11px;
+    }
+}

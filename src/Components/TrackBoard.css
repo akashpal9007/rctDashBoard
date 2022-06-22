@@ -41,8 +41,9 @@
     }
     .board{
         width: fit-content;
-        margin-right: 0.6rem;
+        margin-right: 1rem;
         height: max-content;
+        padding-bottom: 2rem;
     }
     .board-top>select{
         margin-right: 0px;
