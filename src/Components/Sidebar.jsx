@@ -4,7 +4,6 @@ import  {StateContext}  from '../Contexts/ContextProvider';
 
 const Sidebar = () => {
     const {activeMenu} = useContext(StateContext);
-
   return (
       <>
         <div className={activeMenu ? "Sidebar" : "UnSidebar"}>
