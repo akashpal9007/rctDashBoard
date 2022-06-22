@@ -1,0 +1,39 @@
+.navbar{
+    margin-top: 0.5rem;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    background: none;
+    border: none;
+}
+.left-nav>img{
+    width: 25px;
+    height: 25px;
+    filter: grayscale(1) invert(1);
+}
+.nav-icons{
+    width: 15px;
+    height: 15px;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.right-nav>img{
+    margin-right: 10px;
+    filter: grayscale(1) invert(1);
+}
+.right-nav>select{
+    border: 1px solid white;
+    background-color: white;
+    color: #0084ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 6rem;
+    border-radius: 7px;
+}

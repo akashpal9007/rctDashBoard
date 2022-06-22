@@ -1,0 +1,40 @@
+.Sidebar{
+    background-color: white;
+    width: max-content;
+    height: 100vh;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menu-text{
+    margin-right: 2rem;
+}
+.mainlogo{
+    padding-top: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    font-weight: 600;
+}
+
+.icon-img{
+    height: 27px;
+    width: 29px;
+    margin-right: 1.5rem;
+}
+
+.menu{
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.menu>*{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 900px) {
+    .Sidebar{
+        display: none;
+    }
+}

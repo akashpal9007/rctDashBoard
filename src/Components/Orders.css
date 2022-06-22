@@ -1,0 +1,8 @@
+.orders{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.orders>*{
+    margin: 7px 10px;
+}
